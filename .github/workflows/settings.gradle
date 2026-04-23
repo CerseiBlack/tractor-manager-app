@@ -1,2 +1,2 @@
-rootProject.name = "TractorManagerApp"
+rootProject.name = "TractorManager"
 include ':app'
