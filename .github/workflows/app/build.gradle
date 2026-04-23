@@ -15,18 +15,16 @@ android {
         versionName "1.0"
     }
 
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
-    }
-
     buildFeatures {
         compose true
     }
 
     composeOptions {
         kotlinCompilerExtensionVersion '1.5.1'
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
     }
 }
 
